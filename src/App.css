@@ -31,3 +31,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.spin {
+   border: 20px inset #5588a3;
+   display: table-cell;
+   animation: spin 10s ease-in-out infinite alternate;
+}
+
+@keyframes spin {
+   from {
+       border-radius: 0%;
+       border: 20px inset #5588a3;
+       transform: rotate(0deg);
+   }
+
+   to {
+       border: 20px inset #c19191;
+       border-radius: 50%;
+       transform: rotate(360deg);
+   }
+}
