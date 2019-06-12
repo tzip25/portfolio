@@ -2,55 +2,167 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
+.App-body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: #ffc845;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.nav {
+  position: fixed;
+  top: 0;
+  line-height: 3em;
+  width: 100%;
+  background: #00bce4;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.navLink {
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+  padding: 10px;
+  text-decoration: white overline;
+}
+
+.navLink:hover {
+  text-decoration: white overline;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeDiv {
+  background: #00bce4;
+}
+
+h1 {
+  font-family: 'Marck Script', cursive;
+  font-size: 3em;
+}
+
+.homeDiv h1 {
+  font-size: 5em;
+}
+
+.tagline {
+  font-size: 1.2em;
+  padding: 2px;
+}
+
+.darkText {
+  color: black;
+  font-size: 1em;
+  padding: 2px;
+}
+
+.textWidth {
+  width: 80%
+}
+
+.downArrow {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 50px;
+}
+
+.aboutDiv {
+ background: #037ef3;
+ width: 100%;
+ min-height: 100vh;
+ color: white;
+ margin: auto;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.aboutAvatar {
+  width: 250px;
+}
+
+.techDiv {
+  background: #f3f4f7;
+}
+
+.fadeIn1 {
+  -webkit-animation: fadeIn 0.4s both ease-in;
+  animation: fadeIn 0.9s both ease-in;
+  animation-delay: 0.4s;
+}
+
+.fadeIn2 {
+  -webkit-animation: fadeIn 0.4s both ease-in;
+  animation: fadeIn 0.9s both ease-in;
+  animation-delay: 0.8s;
+}
+
+.fadeIn3 {
+  -webkit-animation: fadeIn 0.4s both ease-in;
+  animation: fadeIn 0.9s both ease-in;
+  animation-delay: 1.2s;
+}
+
+.fadeIn4 {
+  -webkit-animation: fadeIn 0.4s both ease-in;
+  animation: fadeIn 0.9s both ease-in;
+  animation-delay: 1.6s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+.pulsate {
+  -webkit-animation: pulsate 2s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  animation: pulsate 1s ease-out;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsate {
+  0% { opacity: 0.5 }
+  50% { opacity: 1.0 }
+  100% { opacity: 0.5 }
+}
+
+@keyframes pulsate {
+  0% { opacity: 0.5 }
+  50% { opacity: 1.0 }
+  100% { opacity: 0.5 }
+}
+
+
+@media (max-width:700px) {
+  .aboutAvatar {
+    width: 150px;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-
-.spin {
-   border: 20px inset #5588a3;
-   display: table-cell;
-   animation: spin 10s ease-in-out infinite alternate;
-}
-
-@keyframes spin {
-   from {
-       border-radius: 0%;
-       border: 20px inset #5588a3;
-       transform: rotate(0deg);
-   }
-
-   to {
-       border: 20px inset #c19191;
-       border-radius: 50%;
-       transform: rotate(360deg);
-   }
 }

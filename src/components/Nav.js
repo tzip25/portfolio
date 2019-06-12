@@ -1,16 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 
 class Nav extends React.Component {
 
+  linkClass = (path) => window.location.hash === path ? "navLink" : "navLink"
+
   render(){
       return(
-        <>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/tech">Technical Projects</Link>
-          <Link to="/design">Graphic Design Projects</Link>
-        </>
+        <div className="nav fadeIn4">
+          <a className={this.linkClass('#home')} href='#home'> Home </a>
+          <a className={this.linkClass('#about')} href='#about'>About</a>
+          <a className={this.linkClass('#tech')} href='#tech'>Tech</a>
+          <a className={this.linkClass('#design')} href='#design'>Design</a>
+        </div>
       )
     }
   }

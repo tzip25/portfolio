@@ -1,33 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ScrollableAnchor from 'react-scrollable-anchor'
 import Nav from './components/Nav'
-import About from './components/About'
 import Home from './components/Home'
-import { Route, Switch } from 'react-router-dom'
+import About from './components/About'
+import Tech from './components/Tech'
 
 
 class App extends React.Component {
 
-  state = {
-    currentPage: "Home"
-  }
-
-  renderPage = () => {
-    return(
-      <Switch>
-        <Route exact path="/" render={()=><Home/>} />
-        <Route path="/about" render={()=><About/>} />
-      </Switch>
-    )
-  }
-
   render(){
     return (
       <div className="App">
-        <header className="App-header">
+        <header className="App-body">
           <Nav />
-          {this.renderPage()}
+          <ScrollableAnchor id={'home'}>
+            <Home/>
+          </ScrollableAnchor>
+          <ScrollableAnchor id={'about'}>
+            <About/>
+          </ScrollableAnchor>
+          <ScrollableAnchor id={'tech'}>
+            <Tech/>
+          </ScrollableAnchor>
         </header>
       </div>
     )
@@ -35,5 +30,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-// <img src={logo} className="App-logo" alt="logo" />
