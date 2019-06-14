@@ -1,0 +1,45 @@
+#nav {
+  position: fixed;
+  top: 0;
+  line-height: 3.5em;
+  width: 100%;
+  background: #00bce4;
+  z-index: 1;
+}
+
+.navLink {
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navIcons {
+  position: absolute;
+  right: 20px;
+}
+
+.navLogo {
+  position: absolute;
+  left: 20px;
+  font-family: 'Marck Script', cursive;
+  font-size: 2em;
+  color: white;
+}
+
+.active {
+  color: white;
+  padding: 10px;
+  text-decoration: white overline;
+}
+
+.navLink:hover {
+  text-decoration: white overline;
+  color: white;
+}
+
+@media (max-width:750px) {
+  .navLinks {
+    display: inline;
+  }
+}

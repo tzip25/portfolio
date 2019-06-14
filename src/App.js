@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import Nav from './components/Nav'
 import Home from './components/Home'

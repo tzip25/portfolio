@@ -18,34 +18,6 @@ a:hover {
   color: #ffc845;
 }
 
-.nav {
-  position: fixed;
-  top: 0;
-  line-height: 3em;
-  width: 100%;
-  background: #00bce4;
-  z-index: 1;
-  opacity: 0.3;
-}
-
-.navLink {
-  font-weight: bold;
-  color: black;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.active {
-  color: white;
-  padding: 10px;
-  text-decoration: white overline;
-}
-
-.navLink:hover {
-  text-decoration: white overline;
-  color: white;
-}
-
 .container {
   width: 100%;
   min-height: 100vh;
@@ -63,7 +35,7 @@ a:hover {
 
 h1 {
   font-family: 'Marck Script', cursive;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .homeDiv h1 {
@@ -85,14 +57,8 @@ h1 {
   width: 80%
 }
 
-.downArrow {
-  position: absolute;
-  bottom: 0;
-  padding-bottom: 50px;
-}
-
 .aboutDiv {
- background: #037ef3;
+ background: #005670;
  width: 100%;
  min-height: 100vh;
  color: white;
@@ -102,6 +68,8 @@ h1 {
  flex-direction: column;
  align-items: center;
  justify-content: center;
+ padding-top: 20px;
+ padding-bottom: 20px;
 }
 
 .aboutAvatar {
@@ -109,7 +77,31 @@ h1 {
 }
 
 .techDiv {
-  background: #f3f4f7;
+  background: #0085ad;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.techGallery {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.techItem {
+  padding: 10px;
+  color: #52565e;
+}
+
+.techItem a {
+  color: #00bce4;
+}
+
+.techItem a:hover {
+  color: #30c39e;
 }
 
 .fadeIn1 {
@@ -121,19 +113,19 @@ h1 {
 .fadeIn2 {
   -webkit-animation: fadeIn 0.4s both ease-in;
   animation: fadeIn 0.9s both ease-in;
-  animation-delay: 0.8s;
+  animation-delay: 1s;
 }
 
 .fadeIn3 {
   -webkit-animation: fadeIn 0.4s both ease-in;
   animation: fadeIn 0.9s both ease-in;
-  animation-delay: 1.2s;
+  animation-delay: 1.4s;
 }
 
 .fadeIn4 {
   -webkit-animation: fadeIn 0.4s both ease-in;
   animation: fadeIn 0.9s both ease-in;
-  animation-delay: 1.6s;
+  animation-delay: 1.8s;
 }
 
 @keyframes fadeIn {
@@ -142,9 +134,9 @@ h1 {
 }
 
 .pulsate {
-  -webkit-animation: pulsate 2s ease-out;
+  -webkit-animation: pulsate 3s ease-out;
   -webkit-animation-iteration-count: infinite;
-  animation: pulsate 1s ease-out;
+  animation: pulsate 2s ease-out;
   animation-iteration-count: infinite;
 }
 
@@ -159,7 +151,6 @@ h1 {
   50% { opacity: 1.0 }
   100% { opacity: 0.5 }
 }
-
 
 @media (max-width:700px) {
   .aboutAvatar {

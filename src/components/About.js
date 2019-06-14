@@ -10,8 +10,8 @@ class Aabout extends React.Component {
 
         <div className="textWidth">
           <p>
-          Hi! My name is Tali, and I am a full stack web developer with knowledge in Ruby, Rails,
-          Javascript, React, Redux, HTML and CSS.
+          Hi! My name is Tali. I'm a full stack web developer with knowledge in Ruby, Rails,
+          Javascript, React, Redux, HTML and CSS. I am also skilled in Photoshop and Illustrator.
           </p>
           <p>
           For the past 11+ years, I worked towards building the Baby K’tan
@@ -26,6 +26,10 @@ class Aabout extends React.Component {
           Reach out or learn more!
           </p>
           <p>
+          <a href="mailto:tali.scheer@gmail.com?Subject=Saw%20your%20portfolio%20and%20thought%20it%20was%20great!%20">
+            <Icon link name='mail' size="large"
+          />
+          </a>
             <a href="https://github.com/tzip25" target="_blank" rel="noopener noreferrer">
               <Icon link name='github' size="large" />
             </a>
