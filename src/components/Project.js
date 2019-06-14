@@ -11,23 +11,25 @@ class Project extends React.Component {
       <div className="techItem">
           <Card>
           <Image src={project.img} wrapped ui={false} />
+
             <Card.Content>
               <Card.Header>{project.name}</Card.Header>
+              <Card.Meta>{project.technologies}</Card.Meta>
               <Card.Description>{project.description}</Card.Description>
             </Card.Content>
 
             <Card.Content extra>
-              {project.tagline}
-            <br/>
-              {project.api}
+              API Integrations<br/>{project.api}
             </Card.Content>
+
             <Card.Content extra>
               <a href={project.url}>
                 <Icon name='linkify' color="blue"/>
                 View Site
               </a>
               </Card.Content>
-              <Card.Content extra>
+
+            <Card.Content extra>
               <a href={project.url}>
                 <Icon name='play' color="blue"/>
                 Demo Video

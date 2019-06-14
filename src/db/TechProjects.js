@@ -4,9 +4,9 @@ const projects = [
     url: "https://www.whodat.actor",
     frontent: "",
     backend: "",
-    tagline: "React • Redux • Rails • JWT",
-    api: "Clarifai API • TMDB API",
-    description: "",
+    technologies: "React • Redux • Rails • JWT",
+    api: "Clarifai • IMDB • TMDB ",
+    description: "Shazam for faces! Capture celebrity photos mid-movie to see an actor’s name, filmography, a link to their IMDB and more.",
     img: "whodat.png"
   },
   {
@@ -14,9 +14,9 @@ const projects = [
     url: "https://wordswithnerds.herokuapp.com/",
     frontent: "",
     backend: "",
-    tagline: "Vanilla JS • Rails",
-    api: "",
-    description: "",
+    technologies: "Vanilla JS • Rails • Custom CSS",
+    api: "none",
+    description: "A game for word enthusiasts. Form words by typing letters that you see on the board. Keep playing until the board fills up.",
     img: "wwn.png"
   },
   {
@@ -24,10 +24,20 @@ const projects = [
     url: "https://destination-unknown.herokuapp.com/",
     frontent: "",
     backend: "",
-    tagline: "React • Redux • Rails",
+    technologies: "React • Redux • Rails",
     api: "Kiwi API",
-    description: "",
-    img: "destination-unknown.png"
+    description: "Find unique destinations within your budget. Search for flights using only a start location, date, and maximum ticket price.",
+    img: "du.png"
+  },
+  {
+    name: "Find Your Foodie",
+    url: "https://findyourfoodie.herokuapp.com/",
+    frontent: "",
+    backend: "",
+    technologies: "Ruby on Rails • Semantic UI",
+    api: "none",
+    description: "Social media for foodies! Find and connect with other food fans. Match based on food preferences, chat and more.",
+    img: "fyf.png"
   },
 ]
 
