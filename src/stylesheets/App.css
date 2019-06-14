@@ -68,8 +68,8 @@ h1 {
  flex-direction: column;
  align-items: center;
  justify-content: center;
- padding-top: 20px;
- padding-bottom: 20px;
+ padding-top: 70px;
+ padding-bottom: 70px;
 }
 
 .aboutAvatar {
@@ -78,8 +78,8 @@ h1 {
 
 .techDiv {
   background: #0085ad;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .techGallery {

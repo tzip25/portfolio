@@ -14,10 +14,13 @@ class Project extends React.Component {
             <Card.Content>
               <Card.Header>{project.name}</Card.Header>
               <Card.Description>{project.description}</Card.Description>
-              <Card.Meta>{project.tagline}</Card.Meta>
-              <Card.Meta>{project.api}</Card.Meta>
             </Card.Content>
 
+            <Card.Content extra>
+              {project.tagline}
+            <br/>
+              {project.api}
+            </Card.Content>
             <Card.Content extra>
               <a href={project.url}>
                 <Icon name='linkify' color="blue"/>

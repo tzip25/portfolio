@@ -9,6 +9,7 @@ class Aabout extends React.Component {
         <h1>A Bit About Me</h1>
 
         <div className="textWidth">
+        <p>Denver → NY</p>
           <p>
           Hi! My name is Tali. I'm a full stack web developer with knowledge in Ruby, Rails,
           Javascript, React, Redux, HTML and CSS. I am also skilled in Photoshop and Illustrator.
