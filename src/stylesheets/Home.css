@@ -359,7 +359,7 @@
       left: 35vw;
       border-bottom: 25vh solid #0abf53;
       border-left: 25vw solid transparent;
-      border-right: 25vw solid transparent;
+      border-right: 22vw solid transparent;
       -webkit-animation: bounce-in-top 1.1s both;
       animation: bounce-in-top 1.1s both;
       animation-delay: 2.8s;
@@ -370,7 +370,7 @@
       left: 60vw;
       border-bottom: 25vh solid #009f4d;
       border-left: 0px solid transparent;
-      border-right: 20vw solid transparent;
+      border-right: 18vw solid transparent;
       transform-origin: top right;
       transform: skewX(21deg);
       -webkit-animation: fadeInMountain 0.4s both ease-in;
