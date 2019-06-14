@@ -23,14 +23,14 @@ class Project extends React.Component {
             </Card.Content>
 
             <Card.Content extra>
-              <a href={project.url}>
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <Icon name='linkify' color="blue"/>
                 View Site
               </a>
               </Card.Content>
 
             <Card.Content extra>
-              <a href={project.url}>
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <Icon name='play' color="blue"/>
                 Demo Video
               </a>

@@ -1,4 +1,15 @@
+.homeDiv h1 {
+  font-size: 5em;
+}
+
+.tagline {
+  z-index: 7;
+  font-size: 1.2em;
+  padding: 2px;
+}
+
 .slide-in {
+  z-index: 7;
 	-webkit-animation: slide-in-top 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 	animation: slide-in-top 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 }
@@ -337,7 +348,7 @@
       border-left: 0px solid transparent;
       border-right: 25vw solid transparent;
       transform-origin: top right;
-      transform: skewX(15deg);
+      transform: skewX(16deg);
       -webkit-animation: fadeInMountain 0.4s both ease-in;
       animation: fadeInMountain 0.4s both ease-in;
       animation-delay: 3.2s;
@@ -361,7 +372,7 @@
       border-left: 0px solid transparent;
       border-right: 20vw solid transparent;
       transform-origin: top right;
-      transform: skewX(20deg);
+      transform: skewX(21deg);
       -webkit-animation: fadeInMountain 0.4s both ease-in;
       animation: fadeInMountain 0.4s both ease-in;
       animation-delay: 3.6s;
