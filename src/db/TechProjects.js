@@ -2,6 +2,7 @@ const projects = [
   {
     name: "WhoDat",
     url: "https://www.whodat.actor",
+    demo: "https://youtu.be/upXlZz9HJiE",
     frontent: "",
     backend: "",
     technologies: "React • Redux • Rails • JWT",
@@ -12,16 +13,18 @@ const projects = [
   {
     name: "Words With Nerds",
     url: "https://wordswithnerds.herokuapp.com/",
+    demo: "https://youtu.be/DpBaDUpblTM",
     frontent: "",
     backend: "",
     technologies: "Vanilla JS • Rails • Custom CSS",
-    api: "NA",
+    api: "-",
     description: "A game for word enthusiasts. Form words by typing letters that you see on the board. Keep playing until the board fills up.",
     img: "wwn.png"
   },
   {
     name: "Destination Unknown",
     url: "https://destination-unknown.herokuapp.com/",
+    demo: "https://youtu.be/WLdMXpGrEZQ",
     frontent: "",
     backend: "",
     technologies: "React • Rails",
@@ -32,10 +35,11 @@ const projects = [
   {
     name: "Find Your Foodie",
     url: "https://findyourfoodie.herokuapp.com/",
+    demo: "",
     frontent: "",
     backend: "",
     technologies: "Ruby on Rails • Semantic UI",
-    api: "NA",
+    api: "-",
     description: "Social media for foodies! Find and connect with other food fans. Match based on food preferences, chat and more.",
     img: "fyf.png"
   },

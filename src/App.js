@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import Home from './components/Home'
 import About from './components/About'
 import Tech from './components/Tech'
+import Design from './components/Design'
 
 
 class App extends React.Component {
@@ -21,6 +22,9 @@ class App extends React.Component {
           </ScrollableAnchor>
           <ScrollableAnchor id={'tech'}>
             <Tech/>
+          </ScrollableAnchor>
+          <ScrollableAnchor id={'design'}>
+            <Design/>
           </ScrollableAnchor>
         </header>
       </div>

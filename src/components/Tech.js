@@ -11,7 +11,7 @@ class Tech extends React.Component {
     return(
       <div className="container techDiv">
         <h1>Technical Projects</h1>
-        <div className="techGallery">
+        <div className="gallery">
           {this.renderProjects()}
         </div>
       </div>

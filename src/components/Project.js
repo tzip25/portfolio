@@ -3,10 +3,26 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 
 class Project extends React.Component {
 
+  openSite = (url) => window.open(`${url}`, "_blank")
+
+  renderDemoButton = () => {
+    if(this.props.project.demo.length){
+      return(
+        <button className="projectButton" onClick={() => this.openSite(this.props.project.demo)} >
+          <Icon name='play'/>Demo Video
+        </button>
+      )
+    } else {
+      return(
+        <button disabled className="projectButtonDisabled" >
+          <Icon name='play'/>Demo Video
+        </button>
+      )
+    }
+  }
+
   render(){
-
     const { project } = this.props
-
     return(
       <div className="techItem">
           <Card>
@@ -22,19 +38,11 @@ class Project extends React.Component {
               API Integrations<br/>{project.api}
             </Card.Content>
 
-            <Card.Content extra>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <Icon name='linkify' color="blue"/>
-                View Site
-              </a>
-              </Card.Content>
+            <button className="projectButton" onClick={() => this.openSite(project.url)} >
+              <Icon name='linkify'/>View Site
+            </button>
 
-            <Card.Content extra>
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <Icon name='play' color="blue"/>
-                Demo Video
-              </a>
-            </Card.Content>
+            {this.renderDemoButton()}
 
           </Card>
       </div>
