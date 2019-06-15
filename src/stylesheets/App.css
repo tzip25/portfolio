@@ -66,6 +66,8 @@ h1 {
 .designDiv {
   background: #f3f4f7;
   color: black;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .galleryItem {
@@ -122,7 +124,7 @@ h1 {
 
 .projectButtonDisabled {
   background-color: #00334e;
-  opacity: 0.7;
+  opacity: 0.9;
   height: 40px;
   color: gray;
 }

@@ -38,8 +38,8 @@ class Aabout extends React.Component {
               <Icon link name='linkedin' size="large"
             />
             </a>
-            <a href="https://thatgalcodes.wordpress.com/" target="_blank" rel="noopener noreferrer">
-              <Icon link name='wordpress' size="large"
+            <a href="https://medium.com/@tali.scheer" target="_blank" rel="noopener noreferrer">
+              <Icon link name='medium m' size="large"
             />
             </a>
             <a href="https://twitter.com/talischeer" target="_blank" rel="noopener noreferrer">
