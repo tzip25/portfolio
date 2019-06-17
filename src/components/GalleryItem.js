@@ -6,7 +6,7 @@ class GalleryItem extends React.Component {
     const { project } = this.props
     return(
       <div className="galleryItem">
-          {project.type}
+          < img src={project.imgUrl} className="galerryImg" alt={`${project.name} ${project.type}`}/>
       </div>
     )
   }

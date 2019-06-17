@@ -1,33 +1,23 @@
 const designProjects = [
   {
-    type: "Logo"
+    type: "Logo",
+    name: 'The Creators',
+    imgUrl: "creators.png"
   },
   {
-    type: "Logo"
+    type: "Logo",
+    name: "Baby K'tan",
+    imgUrl: "babyktan1.png"
   },
   {
-    type: "Logo"
+    type: "Logo",
+    name: "Glass Cocktail Bar",
+    imgUrl: "glass.png"
   },
   {
-    type: "Logo"
-  },
-  {
-    type: "Logo"
-  },
-  {
-    type: "Logo"
-  },
-  {
-    type: "Logo"
-  },
-  {
-    type: "Logo"
-  },
-  {
-    type: "Logo"
-  },
-  {
-    type: "Logo"
+    type: "Logo",
+    name: "WhoDat",
+    imgUrl: "whodat-logo.png"
   },
 ]
 

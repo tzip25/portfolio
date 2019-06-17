@@ -77,8 +77,16 @@ h1 {
   background-color: white;
   height: 250px;
   width: 250px;
-  margin: 1px;
+  margin: 2px;
   align-items: center;
+}
+
+.galerryImg {
+  max-height: 250px;
+  max-width: 250px;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .techDiv {

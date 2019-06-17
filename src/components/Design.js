@@ -10,7 +10,7 @@ class Design extends React.Component {
   render(){
     return(
       <div className="container designDiv">
-        <h1>Design Projects</h1>
+        <h1>Graphic Design</h1>
         <div className="gallery">
           {this.renderProjects()}
         </div>
