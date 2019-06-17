@@ -14,6 +14,8 @@ class Tech extends React.Component {
         <div className="gallery">
           {this.renderProjects()}
         </div>
+        <br/>
+        <h4>Oh, and this portfolio site <span role="img" aria-label="winky face emoji">😉</span> </h4>
       </div>
     )
   }
