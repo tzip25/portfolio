@@ -54,7 +54,7 @@ h1 {
  flex-wrap: wrap;
  flex-direction: column;
  align-items: center;
- justify-content: center;
+ /* justify-content: center; */
  padding-top: 70px;
  padding-bottom: 70px;
 }

@@ -18,7 +18,7 @@ const projects = [
     backend: "",
     technologies: "Vanilla JS • Rails • Custom CSS • Semantic UI",
     api: "-",
-    description: "A game for word enthusiasts. Form words by typing letters that you see on the board. Keep playing until the board fills up. Carefull, it's addictive!",
+    description: "A game for word enthusiasts. Form words by typing letters that you see on the board. Keep playing until the board fills up. Careful, it's addictive!",
     img: "wwn.png"
   },
   {
