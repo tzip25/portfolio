@@ -5,7 +5,11 @@ import v4 from 'uuid'
 
 class Design extends React.Component {
 
-  renderProjects = () => designProjects.map(project => <GalleryItem project={project} key={v4()}/>)
+  state = {
+    projects: designProjects
+  }
+
+  renderProjects = () => this.state.projects.map(project => <GalleryItem project={project} key={v4()}/>)
 
   render(){
     return(
