@@ -54,7 +54,6 @@ h1 {
  flex-wrap: wrap;
  flex-direction: column;
  align-items: center;
- /* justify-content: center; */
  padding-top: 70px;
  padding-bottom: 70px;
 }
@@ -65,6 +64,7 @@ h1 {
 
 .designDiv {
   background: #f3f4f7;
+  /* max-width: 1200px; */
   color: black;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -77,8 +77,22 @@ h1 {
   background-color: white;
   height: 250px;
   width: 250px;
-  margin: 2px;
+  margin: 1px;
   align-items: center;
+  cursor: pointer;
+}
+
+.galleryItemClicked {
+  display: flex;
+  justify-content: center;
+  color: #0085ad;
+  background-color: white;
+  height: 250px;
+  width: 250px;
+  margin: 1px;
+  border: 3px solid black;
+  align-items: center;
+  cursor: pointer;
 }
 
 .galerryImg {
@@ -87,6 +101,15 @@ h1 {
   object-fit: fill;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.galerryHoverImg {
+  height: 50px;
+}
+
+.designProjectText {
+  padding: 10px;
+  /* color: #0085ad; */
 }
 
 .techDiv {
