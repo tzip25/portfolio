@@ -94,7 +94,7 @@ h1 {
   height: 250px;
   width: 250px;
   margin: 1px;
-  border: 3px solid black;
+  border: 3px solid #0085ad;
   align-items: center;
   cursor: pointer;
 }
