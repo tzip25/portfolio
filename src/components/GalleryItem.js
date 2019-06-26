@@ -32,7 +32,6 @@ class GalleryItem extends React.Component {
             <h2>{project.type}</h2>
             <p>{project.description}</p>
             <img src={project.imgUrl} className="galerryHoverImg" alt={`${project.name} ${project.type}`}/>
-
           </div>
           :
           <img src={project.imgUrl} className="galerryImg" alt={`${project.name} ${project.type}`}/>
