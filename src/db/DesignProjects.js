@@ -53,7 +53,7 @@ const designProjects = [
     software: "Adobe Illustrator",
     name: "WhoDat",
     imgUrl: "whodat-logo.png",
-    description: "Deisgned logo for private client. Incorporated paint brush, light bulb, and flame."
+    description: "Deisgned logo for WhoDat.actor project."
   },
 ]
 
