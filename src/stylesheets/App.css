@@ -173,7 +173,7 @@ h1 {
   padding: 20px 0 20px 0;
   background-color: white;
   border-radius: 5px;
-  width: 90%;
+  max-width: 450px;
   margin: 15px;
 }
 
@@ -259,4 +259,9 @@ h1 {
   .aboutAvatar {
     width: 150px;
   }
+
+  .blogPost {
+    width: 90%;
+  }
+
 }

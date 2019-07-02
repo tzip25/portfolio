@@ -19,7 +19,7 @@ class BlogPost extends React.Component {
           </a>
         </h2>
         <div className = "blogDescription">
-        { this.renderDescription(post.description).slice(0,100) }...
+        { this.renderDescription(post.description).slice(0,250) }...
         </div>
         <p>
           <a href={post.link} target="_blank" rel="noopener noreferrer" className="readOnMedium">
