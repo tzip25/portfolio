@@ -26,7 +26,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 h1 {
@@ -64,7 +63,6 @@ h1 {
 
 .designDiv {
   background: #f3f4f7;
-  /* max-width: 1200px; */
   color: black;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -162,6 +160,51 @@ h1 {
   opacity: 0.9;
   height: 40px;
   color: gray;
+}
+
+.blogDiv {
+  background: #0085ad;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.blogPost {
+  color: black;
+  padding: 20px 0 20px 0;
+  background-color: white;
+  border-radius: 5px;
+  width: 90%;
+  margin: 15px;
+}
+
+.blogDescription {
+  padding: 10px;
+}
+
+.blogPost h2 a {
+  color: black;
+}
+
+.blogPost h2 a:hover {
+  color: #ffc845;
+}
+
+.readOnMedium {
+  font-weight: bold;
+  color: #0085ad;
+}
+
+.readOnMedium:hover {
+  color: #00334e;
+}
+
+.blogPostThumbnail {
+  padding: 10px 0 10px 0;
+  max-height: 450px;
+  max-width: 100%;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .fadeIn1 {

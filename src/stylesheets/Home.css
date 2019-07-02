@@ -1,5 +1,6 @@
 .homeDiv {
   background: #00bce4;
+  justify-content: center;
 }
 
 .homeDiv h1 {

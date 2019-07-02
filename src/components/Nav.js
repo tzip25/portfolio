@@ -28,16 +28,13 @@ class Nav extends React.Component {
               <Icon link name='github' size="large" />
             </a>
             <a href="https://www.linkedin.com/in/tali-scheer/" target="_blank" rel="noopener noreferrer">
-              <Icon link name='linkedin' size="large"
-            />
+              <Icon link name='linkedin' size="large"/>
             </a>
-            <a href="https://medium.com/@tali.scheer" target="_blank" rel="noopener noreferrer">
-              <Icon link name='medium m' size="large"
-            />
+            <a href='#blog'>
+              <Icon link name='medium m' size="large"/>
             </a>
             <a href="https://twitter.com/talischeer" target="_blank" rel="noopener noreferrer">
-              <Icon link name='twitter' size="large"
-            />
+              <Icon link name='twitter' size="large"/>
             </a>
           </span>
 
