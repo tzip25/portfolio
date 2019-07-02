@@ -1,6 +1,5 @@
 import React from 'react';
 import BlogPost from './BlogPost'
-import { Icon } from 'semantic-ui-react'
 import v4 from 'uuid'
 
 class Blog extends React.Component {
