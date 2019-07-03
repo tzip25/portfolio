@@ -1,6 +1,23 @@
 import React from 'react';
+var moment = require('moment');
 
 class BlogPost extends React.Component {
+
+  state = {
+    readOnMedium: false
+  }
+
+  handleHover = () => {
+    this.setState({
+      readOnMedium: true
+    })
+  }
+
+  leaveHover = () => {
+    this.setState({
+      readOnMedium: false
+    })
+  }
 
   renderDescription = (node) => {
       let div = document.createElement('div')
@@ -11,24 +28,26 @@ class BlogPost extends React.Component {
 
   render(){
     const { post } = this.props
-    console.log(post)
     return(
-      <div className="blogPost">
-        <h2>
-          <a href={post.link} target="_blank" rel="noopener noreferrer">
-            {post.title}
-          </a>
-        </h2>
-        <p>{post.pubDate}</p>
-        <div className = "blogDescription">
-        { this.renderDescription(post.description).slice(0,250) }...
+      <a href={post.link} target="_blank" rel="noopener noreferrer">
+        <div onMouseOver={this.handleHover} onMouseLeave={this.leaveHover} className="blogPost">
+          <div className={this.state.readOnMedium ? "readOnMedium mobileHide" : "hide"}>
+            Continue reading on Medium
+          </div>
+          <div className="blogContent">
+            <h2>
+              {post.title}
+            </h2>
+            <p>{moment(post.pubDate).format("MMM Do YYYY")}</p>
+            <div className = "blogDescription">
+            { this.renderDescription(post.description).slice(0,250) }...
+            </div>
+            <div className="mobileReadOnMedium hide">
+            Continue reading on Medium
+            </div>
+          </div>
         </div>
-        <p>
-          <a href={post.link} target="_blank" rel="noopener noreferrer" className="readOnMedium">
-          Continue reading on Medium
-          </a>
-        </p>
-      </div>
+      </a>
     )
   }
 }

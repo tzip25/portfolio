@@ -111,7 +111,6 @@ h1 {
 
 .designProjectText {
   padding: 10px;
-  /* color: #0085ad; */
 }
 
 .techDiv {
@@ -169,33 +168,46 @@ h1 {
 }
 
 .blogPost {
-  color: black;
-  padding: 20px 0 20px 0;
-  background-color: white;
+  color: white;
+  background-color: #00334e;
   border-radius: 5px;
-  max-width: 450px;
+  width: 350px;
+  height: 300px;
   margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid white;
+}
+
+.blogContent{
+  padding: 20px;
 }
 
 .blogDescription {
   padding: 10px;
 }
 
-.blogPost h2 a {
-  color: black;
-}
-
-.blogPost h2 a:hover {
-  color: #ffc845;
-}
-
 .readOnMedium {
+  position: absolute;
+  width: 350px;
+  height: 300px;
   font-weight: bold;
-  color: #0085ad;
+  border-radius: 5px;
+  background-color: #ffc845;
+  opacity: 0.95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  line-height: normal;
+  border: 2px solid white;
+  color: #00334e;
 }
 
-.readOnMedium:hover {
-  color: #00334e;
+.hide {
+  display: none;
 }
 
 .blogPostThumbnail {
@@ -262,6 +274,16 @@ h1 {
 
   .blogPost {
     width: 90%;
+  }
+
+  .mobileHide{
+    display: none;
+  }
+
+  .mobileReadOnMedium {
+    display: block;
+    color: #ffc845;
+    text-decoration: underline;
   }
 
 }
