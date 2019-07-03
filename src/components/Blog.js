@@ -13,7 +13,7 @@ class Blog extends React.Component {
       .then(res => res.json())
       .then(res => {
         this.setState({
-          blogPosts: res.items
+          blogPosts: res.items.slice(0,5)
         })
       })
     }
@@ -27,6 +27,7 @@ class Blog extends React.Component {
           Blog Feed
         </h1>
         {this.renderPosts()}
+        <h3>- <a href="https://medium.com/@tali.scheer" target="_blank" rel="noopener noreferrer">See complete blog feed on Medium</a> -</h3>
       </div>
     )
   }

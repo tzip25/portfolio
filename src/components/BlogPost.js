@@ -11,6 +11,7 @@ class BlogPost extends React.Component {
 
   render(){
     const { post } = this.props
+    console.log(post)
     return(
       <div className="blogPost">
         <h2>
@@ -18,6 +19,7 @@ class BlogPost extends React.Component {
             {post.title}
           </a>
         </h2>
+        <p>{post.pubDate}</p>
         <div className = "blogDescription">
         { this.renderDescription(post.description).slice(0,250) }...
         </div>
