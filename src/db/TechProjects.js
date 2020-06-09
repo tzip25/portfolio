@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "WhoDat",
-    url: "https://www.whodat.actor",
+    url: "https://whodat.netlify.app/",
     demo: "https://youtu.be/upXlZz9HJiE",
     frontent: "",
     backend: "",
