@@ -9,22 +9,16 @@ class Aabout extends React.Component {
         <h1>A Bit About Me</h1>
 
         <div className="textWidth">
-        <p>Denver → NY</p>
+        <p className="locationText">Denver → Israel → Florida → New York</p>
           <p>
-          Hi! My name is Tali. I'm a full stack web developer with knowledge in Ruby, Rails,
-          Javascript, React, Redux, HTML and CSS. I am also skilled in Photoshop and Illustrator.
-          </p>
-          <p>
-          For the past 11+ years, I worked towards building the Baby K’tan
+          Hey there! My name is Tali. I'm a software engineer with experience in Golang, Javascript, 
+          React, Redux, Ruby, Rails, HTML, CSS... and always learning more. I am also skilled in Photoshop and 
+          Illustrator. For the past 11+ years, I worked towards building the Baby K’tan
           brand from an idea born in my sister's kitchen, to a globally recognized
-          baby products company.
+          baby products company. 
           </p>
           <p>
-          I bring my creativity, design skills and critical thinking
-          to every project.
-          </p>
-          <p>
-          Reach out or learn more!
+          Reach out and learn more!
           </p>
           <p>
           <a href="mailto:tali.scheer@gmail.com?Subject=Saw%20your%20portfolio%20and%20thought%20it%20was%20great!%20">
