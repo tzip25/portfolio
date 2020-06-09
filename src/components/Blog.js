@@ -26,7 +26,9 @@ class Blog extends React.Component {
         <h1>
           Blog Feed
         </h1>
-        {this.renderPosts()}
+        <div className="gallery">
+          {this.renderPosts()}
+        </div>
         <h3>- <a href="https://medium.com/@tali.scheer" target="_blank" rel="noopener noreferrer">See complete blog feed on Medium</a> -</h3>
       </div>
     )
