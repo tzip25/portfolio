@@ -328,13 +328,14 @@
 }
 
 @media (max-width:1050px) {
-  #triangle3,#triangle3-shadow,#triangle4,#triangle4-shadow,#triangle5,#triangle5-shadow {
+  #triangle1, #triangle1-shadow, #triangle2, #triangle2-shadow, #triangle3,#triangle3-shadow,#triangle4,#triangle4-shadow,#triangle5,#triangle5-shadow {
       display: none
   }
   .circle,.innerCircle,.innerCircle2 {
     display: none;
   }
-  #triangle1 {
+
+  /* #triangle1 {
       position: absolute;
       bottom: 0;
       left: 0;
@@ -382,4 +383,9 @@
       animation: fadeInMountain 0.4s both ease-in;
       animation-delay: 3.6s;
   }
+  @supports (-webkit-touch-callout: none) {
+    #triangle1, #triangle2, #triangle1-shadow, #triangle2-shadow {
+        margin-bottom: -20vw;
+      }
+  } */
 }
