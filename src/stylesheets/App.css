@@ -39,8 +39,9 @@ h1 {
   padding: 2px;
 }
 
-.textWidth {
+.about-div-text-width {
   max-width: 1000px;
+  padding: 15px;
 }
 
 .aboutDiv {

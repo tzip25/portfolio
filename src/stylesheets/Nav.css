@@ -20,6 +20,7 @@
 }
 
 .navLogo {
+  z-index: 100;
   position: absolute;
   left: 20px;
   font-family: 'Marck Script', cursive;
@@ -39,12 +40,15 @@
 }
 
 @media (max-width:750px) {
+  .navLink{
+    display: none
+  }
   .navIcons {
     line-height: 3.5em;
     background: #222;
     width: 100%;
     position: fixed;
     right: 0;
-    bottom: 0;
+    top: 0;
   }
 }
