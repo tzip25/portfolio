@@ -20,9 +20,9 @@ class MountainsDesktop extends React.Component {
 			<div id="triangle5-shadow"></div>
 
 			<div className="circle">
-			<div className="innerCircle pulsate">
-				<div className="innerCircle2 pulsate"></div>
-			</div>
+				<div className="innerCircle pulsate">
+					<div className="innerCircle2 pulsate"></div>
+				</div>
 			</div>
 		</>
     )
