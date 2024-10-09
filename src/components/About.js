@@ -11,7 +11,10 @@ class Aabout extends React.Component {
         <div className="about-div-text-width">
         <p className="locationText">Denver → Israel → Florida → New York → Tokyo</p>
           <p>
-          Hey there! My name is Tali. I'm a software engineer with experience in Golang, Javascript, React, Redux, Ruby, Rails, HTML, CSS and always learning more. I am also skilled in Photoshop and Illustrator. 
+          Hey there! My name is Tali. I'm a software engineer with experience in Golang, Javascript, React, Redux, Ruby, Rails, HTML, CSS and always learning more.
+          </p>
+          <p>
+          I spent over 5 years working as an integrations engineer at Wunderkind (formerly BounceX). Earlier in my career I led marketing and branding at Baby K’tan, building it from an idea born in my sister's kitchen to a globally recognized baby products company.
           </p>
           <p>
           Reach out and learn more!
